@@ -15,10 +15,6 @@
 ### Github
 
 - Git을 사용하는 프로젝트의 협업을 위한 웹호스팅 서비스
-- 포트폴리오를 자랑할 수 있는 공간
-- 1일 1커밋 하기
-- 이동욱님 Github 계정 https://github.com/jojoldu
-
 
 ## CLI
 
@@ -59,6 +55,42 @@ $ mv Name test
 $ pwd
 ```
 
+### git 명령어 기초
+```git bash
+# git으로 관리 시작, 디렉토리당 한번만
+git init 
+
+# 상태 확인
+git status
+
+# 작업 디렉토리 변경사항 스테이징 영역으로 추가
+git add name
+
+# 변경사항 기록
+git commit -m "commit name"
+
+# config 설정
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+# 확인
+git config --global --list
+
+# 커밋 내역 확인
+git log --oneline
+
+# 커밋 간 변경사항 비교
+git diff 해쉬값1 해쉬값2
+
+# github 연결
+git remote add origin URL
+# 확인
+git remote -v
+# 삭제
+git remote rm origin
+
+# github에 local commits 올리기
+git push origin master
+```
 
 ## Visual Studio Code
 
