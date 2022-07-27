@@ -1,4 +1,4 @@
-# **TIL Git Github (.gitignore, clone, pull, branch)**
+# **TIL Git Github (.gitignore, clone, pull)**
 
 > 2022년 07월 26일 화요일
 
