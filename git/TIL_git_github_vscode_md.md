@@ -31,28 +31,28 @@
 |touch|파일 생성||
 |ls|현재 디렉토리의 파일 목록 출력|-a : 숨김파일 보기<br> -l : 확장자 등 모든 정보 보기|
 |rm|파일 삭제/디렉토리 삭제|-r : 재귀적으로 폴더 하단 내역도 삭제<br> -rf : 강제 삭제|
-|mv|이름 변경<br> 위치 변경|이름 : [oldName] [newName] <br>위치 : [Name] [Directory]|
+|mv|이름 변경<br> 위치 변경|이름 : [oldname] [newname] <br>위치 : [filename] [dirname]|
 |pwd|현재 작업 디렉토리||
 
 ex)
 ```git bash
-$ mkdir test
+$ mkdir [dirname]
 
 $ cd ..
-$ cd test
+$ cd [dirname]
 
-$ touch a.txt
+$ touch [filename]
 
 $ ls
 $ ls -a
 $ ls -l
 
-$ rm a.txt
-$ rm -r test
-$ rm -rf test
+$ rm [filename]
+$ rm -r [dirname]
+$ rm -rf [dirname]
 
-$ mv newName oldName
-$ mv Name test
+$ mv [newname] [oldname]
+$ mv [filename] [dirname]
 
 $ pwd
 ```
@@ -66,7 +66,7 @@ git init
 git status
 
 # 작업 디렉토리 변경사항 스테이징 영역으로 추가
-git add name
+git add 
 
 # 변경사항 기록
 git commit -m "commit name"
@@ -81,7 +81,7 @@ git config --global --list
 git log --oneline
 
 # 커밋 간 변경사항 비교
-git diff 해쉬값1 해쉬값2
+git diff [해쉬값1] [해쉬값2]
 
 # github 연결
 git remote add origin URL
