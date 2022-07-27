@@ -59,5 +59,5 @@ $ git clone URL
 
 ex)
 ```git bash
-$ git origin [저장소] [브랜치]
+$ git origin [저장소] [branch]
 ```
