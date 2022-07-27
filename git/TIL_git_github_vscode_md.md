@@ -60,38 +60,38 @@ $ pwd
 ### git 명령어 기초
 ```git bash
 # git으로 관리 시작, 디렉토리당 한번만
-git init 
+$ git init 
 
 # 상태 확인
-git status
+$ git status
 
 # 작업 디렉토리 변경사항 스테이징 영역으로 추가
-git add 
+$ git add 
 
 # 변경사항 기록
-git commit -m "commit name"
+$ git commit -m "commit name"
 
 # config 설정
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
 # 확인
-git config --global --list
+$ git config --global --list
 
 # 커밋 내역 확인
-git log --oneline
+$ git log --oneline
 
 # 커밋 간 변경사항 비교
-git diff [commitid] [commitid]
+$ git diff [commitid] [commitid]
 
 # github 연결
-git remote add origin URL
+$ git remote add origin URL
 # 확인
-git remote -v
+$ git remote -v
 # 삭제
-git remote rm origin
+$ git remote rm origin
 
 # github에 local commits 올리기
-git push origin [branchname]
+$ git push origin [branchname]
 ```
 
 ---
