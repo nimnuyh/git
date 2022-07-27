@@ -1,4 +1,4 @@
-# **TIL Day 01**
+# **TIL Git Github VSCode Markdown**
 
 > 2022년 07월 25일 월요일
 
