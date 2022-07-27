@@ -81,7 +81,7 @@ git config --global --list
 git log --oneline
 
 # 커밋 간 변경사항 비교
-git diff [해쉬값1] [해쉬값2]
+git diff [commitid] [commitid]
 
 # github 연결
 git remote add origin URL
@@ -91,7 +91,7 @@ git remote -v
 git remote rm origin
 
 # github에 local commits 올리기
-git push origin master
+git push origin [branchname]
 ```
 
 ---
