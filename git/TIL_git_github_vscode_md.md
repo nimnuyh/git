@@ -16,6 +16,8 @@
 
 - Git을 사용하는 프로젝트의 협업을 위한 웹호스팅 서비스
 
+---
+
 ## CLI
 
 > CLI (Command Line Interface, 커맨드 라인 인터페이스)는 터미널을 통해 사용자와 컴퓨터가 상호 작용하는 방식을 뜻한다.
@@ -32,7 +34,7 @@
 |mv|이름 변경<br> 위치 변경|이름 : [oldName] [newName] <br>위치 : [Name] [Directory]|
 |pwd|현재 작업 디렉토리||
 
-예시
+ex)
 ```git bash
 $ mkdir test
 
@@ -92,6 +94,8 @@ git remote rm origin
 git push origin master
 ```
 
+---
+
 ## Visual Studio Code
 
 > Visual Studio Code (비주얼 스튜디오 코드)는 마이크로소프트에서 개발한 텍스트 에디터의 한 종류이다.
@@ -114,6 +118,7 @@ git push origin master
 5. 기본 터미널이 Git Bash로 열리는지 확인한다.
 
 
+---
 
 ## Markdown
 
