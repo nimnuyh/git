@@ -131,3 +131,27 @@ $ git branch -d [branchname]
 ```
 
 ## git reset
+
+> 특정 commit 상태로 되돌림
+
+```git bash
+$ git reset [옵션] [commitid]
+```
+
+### 옵션
+1. --mixed
+   - 기본값
+   - reset 시점 이후 commit된 파일들을 working directory로 돌려놓음 (add 하기 전 상태)
+2. --soft
+   - reset 시점 이후 commit된 파일들을 staging area로 돌려놓음 (commit 하기 전 상태)
+3. --hard
+   - reset 시점 이후 commit된 파일들을 모두 working directory에서 삭제
+   - 삭제한 commit으로 다시 돌아가고 싶다면 git reflog를 사용
+
+## git revert
+
+> 특정 사건을 없었던 일로 만드는 행위, 이전 commit을 취소한다는 새로운 commit을 만듦
+
+```git bash
+$ git revert [commitid]
+```
