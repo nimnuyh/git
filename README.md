@@ -9,15 +9,6 @@
 
 ## Category
 
-- Python Basic
-- Pandas
-- Numpy
-- Visualization
-- Crawling
-- Machine Learning
-- NLP
-- CV
-- Recommender System
 - Git
-- SQL
-- Tableu
+- KoBERT
+- Linear Regression
