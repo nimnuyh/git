@@ -1,6 +1,4 @@
-# **TIL Git Github reset, revert, undoing**
-
-> 2022년 07월 27일 수요일
+# **Git Github reset, revert, undoing**
 
 ## git reset
 

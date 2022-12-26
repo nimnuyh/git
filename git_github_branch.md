@@ -1,6 +1,4 @@
-# **TIL Git Github branch**
-
-> 2022년 07월 27일 수요일
+# **Git Github branch**
 
 ## branch
 

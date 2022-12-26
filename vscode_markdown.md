@@ -1,6 +1,4 @@
-# **TIL VSCode Markdown**
-
-> 2022년 07월 25일 월요일
+# **VSCode Markdown**
 
 ## Visual Studio Code
 
