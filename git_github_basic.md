@@ -1,6 +1,4 @@
-# **TIL Git Github Basic**
-
-> 2022년 07월 25일 월요일
+# **Git Github Basic**
 
 ## Git & Github?
 
